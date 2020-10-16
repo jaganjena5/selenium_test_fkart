@@ -1,0 +1,9 @@
+package prac_jan;
+
+import java.util.Vector;
+
+public class PracCollection2 {
+	Vector v= new Vector();
+	
+
+}

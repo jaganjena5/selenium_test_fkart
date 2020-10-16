@@ -1,0 +1,13 @@
+package prac_jan;
+
+import java.util.Vector;
+
+public class PracCollection2 {
+	Vector<Integer> v= new Vector();
+	for(int i=0; i<5; i++) {
+		
+	}
+		
+	
+
+}

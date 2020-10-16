@@ -1,0 +1,22 @@
+package prac_jan;
+
+import java.util.AbstractCollection;
+import java.util.ArrayList;
+import java.util.TreeSet;
+
+public class PracCollection1 {
+
+	public static void main(String[] args) {
+		AbstractCollection<Object> abs = new ArrayList<Object>();
+		
+		abs.add("mu.. ");
+		abs.add("Pal....");
+		System.out.println("AbstractCollection: "+abs);
+		
+		AbstractCollection<String> abs1= new TreeSet<Object>();
+		abs1.add("welcome");
+		abs1.add("to");
+		abs1.add("Mumbai");
+		System.out.println("collections: "+ abs1);
+	}
+}

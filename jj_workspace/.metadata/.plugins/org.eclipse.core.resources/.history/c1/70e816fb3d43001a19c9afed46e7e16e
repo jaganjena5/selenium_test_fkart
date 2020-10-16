@@ -1,0 +1,15 @@
+package prac_jan;
+
+import java.util.AbstractCollection;
+import java.util.ArrayList;
+
+public class PracCollection1 {
+
+	public static void main(String[] args) {
+		AbstractCollection<Object> abs = new ArrayList<Object>();
+		
+		abs.add("mu.. ");
+		abs.add("Pal....");
+		System.out.println("AbstractCollection: "+abs);
+	}
+}
